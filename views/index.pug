@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+
+  form(action="/traducir", method="post")
+    | Código NOTAM:
+    br
+    textarea#code(rows="8", cols="80" name='code')
+      = code
+    br
+    br
+    input(type="submit", value="Traducir")
+
+  if proc
+    p 
+      = trad

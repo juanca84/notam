@@ -1,0 +1,10 @@
+logs/*
+node_modules/
+src/config/config.development.js
+src/config/config.production.js
+src/config/config.test.js
+public/apidoc/
+public/formularios/
+config/config.js
+npm-debug.log
+.jshintrc
